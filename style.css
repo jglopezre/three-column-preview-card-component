@@ -1,0 +1,193 @@
+body html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  min-height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card > section {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.card > section > div {
+  display: flex;
+  padding-left: 3em;
+  padding-right: 3.5em;
+}
+.card > section h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3em;
+  font-variant-caps: all-petite-caps;
+  color: #f2f2f2;
+}
+.card > section p {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.7em;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: -2em;
+}
+.card > section div:nth-child(1) {
+  height: 20%;
+  align-items: flex-end;
+}
+.card > section div:nth-child(1) img {
+  height: 2.5em;
+}
+.card > section div:nth-child(2) {
+  height: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card > section div:nth-child(3) {
+  height: 20%;
+}
+.card > section div:nth-child(3) > div {
+  width: 70%;
+  height: 2.5em;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+  border-radius: 2em;
+  display: table;
+  text-align: center;
+  border: solid 2px #f2f2f2;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+.card > section div:nth-child(3) > div a {
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9em;
+}
+.card section:nth-child(1) {
+  background-color: #e38826;
+}
+.card section:nth-child(1) div:nth-child(3) > div a {
+  color: #e38826;
+}
+.card section:nth-child(1) div:nth-child(3) > div:hover {
+  background-color: #e38826;
+  transition: background-color 0.2s;
+}
+.card section:nth-child(1) div:nth-child(3) > div:hover a {
+  color: #f2f2f2;
+}
+.card section:nth-child(1) div:nth-child(3) > div:active {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.2s;
+}
+.card section:nth-child(1) div:nth-child(3) > div:active a {
+  color: #f2f2f2;
+}
+.card section:nth-child(2) {
+  background-color: #006970;
+}
+.card section:nth-child(2) div:nth-child(3) > div a {
+  color: #006970;
+}
+.card section:nth-child(2) div:nth-child(3) > div:hover {
+  background-color: #006970;
+  border: solid 2px #f2f2f2;
+  transition: background-color 0.2s;
+}
+.card section:nth-child(2) div:nth-child(3) > div:hover a {
+  color: #f2f2f2;
+}
+.card section:nth-child(2) div:nth-child(3) > div:active {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.2s;
+}
+.card section:nth-child(2) div:nth-child(3) > div:active a {
+  color: #f2f2f2;
+}
+.card section:nth-child(3) {
+  background-color: #004241;
+}
+.card section:nth-child(3) div:nth-child(3) > div a {
+  color: #004241;
+}
+.card section:nth-child(3) div:nth-child(3) > div:hover {
+  background-color: #004241;
+  border: solid 2px #f2f2f2;
+  transition: background-color 0.2s;
+}
+.card section:nth-child(3) div:nth-child(3) > div:hover a {
+  color: #f2f2f2;
+}
+.card section:nth-child(3) div:nth-child(3) > div:active {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.2s;
+}
+.card section:nth-child(3) div:nth-child(3) > div:active a {
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    height: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  section {
+    height: 420px;
+  }
+
+  section:nth-child(1) {
+    border-radius: 15px 15px 0 0;
+  }
+
+  section:nth-child(3) {
+    border-radius: 0 0 15px 15px;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-width: 901px) {
+  section {
+    height: 550px;
+  }
+
+  section:nth-child(1) {
+    border-radius: 15px 0 0 15px;
+  }
+
+  section:nth-child(3) {
+    border-radius: 0 15px 15px 0;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
+footer {
+  font-family: arial;
+  text-align: center;
+  font-size: 0.8em;
+}
+footer a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://github.com/jglopezre/three-column-preview-card-component.git)
+- [Live View](https://jglopezre.github.io/three-column-preview-card-component/)
 
 ## My process
 

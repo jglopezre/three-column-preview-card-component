@@ -15,8 +15,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -45,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-This challenge allow me to practicin more with auto-selection tags like `*:nth-child()` of CSS and nested values on SCSS using SASS languaje for styles. Instead I used flex-box for sorting elements, the flex-wrap it was not better way to sort elements in mobile view, for solving this, I used `@media` css properti and set break width resolution for changing some values and sort all card into a column. 
+This challenge allow me to practicing more with auto-selection tags like `*:nth-child()` of CSS and nested values on SCSS using SASS languaje for styles. Instead I used flex-box for sorting elements, the flex-wrap it was not better way to sort elements in mobile view, for solving this, I used `@media` css property and set break width resolution for changing some values and sort all card into a column. 
 
 
 ```scss
